@@ -1,0 +1,135 @@
+{
+  "m_CraftClasses": {
+    "CraftCategories": [
+      {
+        "CategoryName": "Выживание",
+        "CraftItems": [
+          {
+            "Result": "Rope",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craftpic",
+            "RecipeName": "Верёвка",
+            "CraftComponents": [
+              {
+                "Classname": "Rag",
+                "Amount": 6,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          },
+          {
+            "Result": "Torch",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craftpic",
+            "RecipeName": "Факел",
+            "CraftComponents": [
+              {
+                "Classname": "LongWoodenStick",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              },
+              {
+                "Classname": "Rag",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          }
+        ]
+      },
+      {
+        "CategoryName": "Медицина",
+        "CraftItems": [
+          {
+            "Result": "BandageDressing",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "medicpic",
+            "RecipeName": "Бинт",
+            "CraftComponents": [
+              {
+                "Classname": "Rag",
+                "Amount": 2,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          },
+          {
+            "Result": "Splint",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "medicpic",
+            "RecipeName": "Шина",
+            "CraftComponents": [
+              {
+                "Classname": "LongWoodenStick",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              },
+              {
+                "Classname": "Rag",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          }
+        ]
+      },
+      {
+        "CategoryName": "Инструменты",
+        "CraftItems": [
+          {
+            "Result": "StoneKnife",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "toolspic",
+            "RecipeName": "Каменный нож",
+            "CraftComponents": [
+              {
+                "Classname": "SmallStone",
+                "Amount": 2,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          },
+          {
+            "Result": "ImprovisedFishingRod",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "toolspic",
+            "RecipeName": "Самодельная удочка",
+            "CraftComponents": [
+              {
+                "Classname": "LongWoodenStick",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              },
+              {
+                "Classname": "Rope",
+                "Amount": 1,
+                "Destroy": true,
+                "Changehealth": 0.0
+              }
+            ],
+            "AttachmentsNeed": []
+          }
+        ]
+      }
+    ]
+  }
+}
